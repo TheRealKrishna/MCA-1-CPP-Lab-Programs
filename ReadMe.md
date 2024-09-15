@@ -1,10 +1,9 @@
 # JECRC University MCA 1st Semester - C++ Lab Records and Class Programs
-
 Welcome to the repository for C++ Subject lab records and class programs for the MCA 1st Semester at JECRC University.
 
 ## Contents
 
-- **Lab Programs**: Collection of all lab exercises and practicals.
+- **Lab Record**: Collection of all lab exercises and practicals.
 - **Class Programs**: Examples and programs discussed during lectures.
 
 ## Structure
@@ -12,13 +11,13 @@ Welcome to the repository for C++ Subject lab records and class programs for the
 The repository is organized as follows:
 
 ```
-/Lab Programs
-  /Program1.cpp
-  /Program2.cpp
+/Lab Record
+  /1.cpp
+  /2.cpp
   ...
 /Class Programs
-  /Example1.cpp
-  /Example2.cpp
+  /1.cpp
+  /2.cpp
   ...
 ```
 
@@ -30,7 +29,7 @@ The repository is organized as follows:
   ```
 2. Navigate to the desired directory:
   ```sh
-  cd Lab Programs
+  cd Lab Record
   ```
 3. Compile and run the C++ programs using your preferred compiler.
 
@@ -40,6 +39,6 @@ This repository is for educational purposes only.
 
 ## Contact
 
-For any queries, please contact [Your Email].
+For any queries, please contact Krishna Agarwal (Roll Number: 24MCAN0007) at krishna.24mcan0007@jecrcu.edu.in.
 
 Happy Coding!
