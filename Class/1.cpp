@@ -1,31 +1,29 @@
+// Program of Objects & Classes
+
 #include <iostream>
 using namespace std;
 
-class Student
-{
-private:
+class Student {
+ private:
   char name[30];
   int age;
 
-public:
+ public:
   void getData();
-  void display()
-  {
+  void display() {
     cout << "Name = " << name << endl;
     cout << "Age = " << age << endl;
   }
 };
 
-void Student::getData()
-{
+void Student::getData() {
   cout << "Enter Your Name: ";
   cin >> name;
   cout << "Enter Your Age: ";
   cin >> age;
 }
 
-int main()
-{
+int main() {
   Student obj1, obj2, obj3;
   Student s1;
   s1.getData();
