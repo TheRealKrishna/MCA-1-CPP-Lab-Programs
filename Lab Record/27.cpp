@@ -10,7 +10,7 @@ int main() {
   cin >> n;
   for (int i = 0; i < 10; i++) {
     if (arr[i] == n) {
-      cout << "Number found at index " << i << endl;
+      cout << "Number found at index: " << i << endl;
       return 0;
     }
   }

@@ -1,4 +1,4 @@
-// Program to merge 2 unsorted arrays with hard coded values
+// Program to merge 2 unsorted arrays
 
 #include <iostream>
 using namespace std;
