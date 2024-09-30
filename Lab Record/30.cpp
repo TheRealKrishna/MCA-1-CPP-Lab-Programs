@@ -14,3 +14,4 @@ int main() {
   cout << "The concatenated string is: " << s1 << endl;
   return 0;
 }
+
