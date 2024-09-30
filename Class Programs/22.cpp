@@ -12,7 +12,7 @@ class Test {
     b = y;
     c = z;
   }
-  friend void operator-(Test &);
+  friend void operator-(Test &t);
   void display() {
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
