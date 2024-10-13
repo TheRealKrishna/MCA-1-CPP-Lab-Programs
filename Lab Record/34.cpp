@@ -22,7 +22,7 @@ int main() {
     cout << "Enter number of lines to display (n): ";
     cin >> n;
 
-    cout << "\nDisplaying " << n << " lines starting from line " << m << ":\n";
+    cout << "Displaying " << n << " lines starting from line " << m << ":\n";
     for (int i = m - 1; i < m - 1 + n && i < text.size(); ++i) {
         cout << text[i] << endl;
     }
