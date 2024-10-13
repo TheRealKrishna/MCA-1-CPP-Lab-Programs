@@ -10,7 +10,6 @@ int main() {
     string line;
     int m, n;
 
-    // Input: Entering multiple lines of text
     cout << "Enter text (type 'END' to stop input):\n";
     while (getline(cin, line)) {
         if (line == "END") break;

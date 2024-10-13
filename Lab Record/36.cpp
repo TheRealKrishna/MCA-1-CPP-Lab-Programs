@@ -1,22 +1,16 @@
-// Program to add 2 vectors ( Arrays )
-
+// Program to add 2 hard coded vectors
 #include <iostream>
 using namespace std;
 
 int main() {
-  int vec1[3] = {1, 2, 3};
-  int vec2[3] = {4, 5, 6};
-  int sum[3];
-
+  int a[3] = {1, 2, 3};
+  int b[3] = {4, 5, 6};
+  int c[3];
   for (int i = 0; i < 3; i++) {
-    sum[i] = vec1[i] + vec2[i];
+    c[i] = a[i] + b[i];
   }
-
-  cout << "Sum of vectors: ";
   for (int i = 0; i < 3; i++) {
-    cout << sum[i] << " ";
+    cout << c[i] << " ";
   }
-  cout << endl;
-
   return 0;
 }
