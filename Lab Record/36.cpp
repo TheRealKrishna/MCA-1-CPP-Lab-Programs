@@ -1,16 +1,19 @@
-// Program to add 2 hard coded vectors
+// Program to add 2 vectors (Arrays)
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
-  int a[3] = {1, 2, 3};
-  int b[3] = {4, 5, 6};
-  int c[3];
-  for (int i = 0; i < 3; i++) {
-    c[i] = a[i] + b[i];
+  vector<int> v1 = {1, 2, 3, 4, 5};
+  vector<int> v2 = {6, 7, 8, 9, 10};
+  vector<int> v3;
+  for (int i = 0; i < v1.size(); i++) {
+    v3.push_back(v1[i] + v2[i]);
   }
-  for (int i = 0; i < 3; i++) {
-    cout << c[i] << " ";
+  cout << "The sum of the two vectors is: ";
+  for (int i = 0; i < v3.size(); i++) {
+    cout << v3[i] << " ";
   }
+  cout << endl;
   return 0;
 }
