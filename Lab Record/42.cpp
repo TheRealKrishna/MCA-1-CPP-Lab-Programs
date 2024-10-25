@@ -4,7 +4,7 @@ using namespace std;
 
 struct Student {
   string name;
-  int marks[5];
+  int marks[2];
 };
 
 int main() {
