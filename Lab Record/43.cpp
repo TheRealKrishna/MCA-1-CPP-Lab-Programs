@@ -7,7 +7,7 @@ enum Color { RED, GREEN, BLUE };
 
 int main() {
   Color color = RED;
-  cout << "The color is ";
+  cout << "The color is: ";
   switch (color) {
     case RED:
       cout << "Red";
