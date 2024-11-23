@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-class ClassB;  // Forward declaration
+class ClassB;
 
 class ClassA {
   int numA;

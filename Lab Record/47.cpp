@@ -9,7 +9,7 @@ struct Student {
   int marks;
 };
 
-bool compareMarks(const Student &a, const Student &b) { return; }
+bool compareMarks(const Student &a, const Student &b) { return a.marks > b.marks; }
 
 int main() {
   vector<Student> students = {
